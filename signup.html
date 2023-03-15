@@ -7,6 +7,28 @@
     <title>Document</title>
 
     <style>
+		.nav{
+    display: flex;
+    border: 1px solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+    background-color: #1c2937;
+    border-radius: 10px;
+    color: white;
+	margin: 18px ;
+	font-size: x-large;
+}
+.nav>div{
+    display: flex;
+   
+    gap: 25px;
+
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+}
         form {
 	max-width: 400px;
 	margin: 0 auto;
@@ -77,9 +99,20 @@ button[type="submit"]:hover {
 <html>
 <head>
 	<title>Visitor</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
 </head>
 <body>
+	<div class="nav">
+        <!-- Create the Navbar Here  -->
+          <p >Reebok</p>
+          <div>
+            <a href="mens.html">Men</a>
+            <a href="mens.html">Women</a>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">login</a>
+          </div>
+         
+      </div>
 	<form>
 		<h2 style="color: white;">-Visitor-</h2>
 		<label for="username"> </label>
